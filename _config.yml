@@ -18,4 +18,3 @@ url: "http://dinosaurscode.xyz" # the base hostname & protocol for your site
 # Build settings
 
 markdown: kramdown
-cat: Cats are cool
