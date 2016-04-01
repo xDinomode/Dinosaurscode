@@ -2,6 +2,12 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-03-30 11:31:13 -0500
+#excerpt_separator: <!--more--> Choose the amount of excerpt
+#excerpt: "A part of the full article"
+#permalink: "Testing" this changes the post url path
+#published: false Set to false if you don't want this article published
+#category: beginner Posts don't need to be in folders
+#categories:
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

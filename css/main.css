@@ -10,7 +10,9 @@ body{
   color:#151515;
   font-family: Helvetica, sans-serif;
 }
-
+a{
+  color: #4078c0;
+}
 /*header css*/
 #header{
   width:25%;
@@ -20,9 +22,11 @@ body{
 
 #header .nav{
   text-align:center;
+
 }
 #header .nav ul{
   list-style-type: none;
+
 }
 #header .nav ul li{
 
@@ -32,6 +36,9 @@ body{
   height: 42px;
   color:#cccccc;
   text-decoration: none;
+}
+#header .nav ul li a:hover{
+  color:white;
 }
 /*end of header css*/
 
@@ -87,6 +94,7 @@ body{
   font-family: Helvetica, sans-serif;
   font-size:1.25em;
   width:100%;
+  text-align:center;
 }
 .page a{
   text-decoration: none;
