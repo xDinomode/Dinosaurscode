@@ -1,0 +1,9 @@
+---
+layout: post
+title: "My first post"
+---
+
+Hi this is my first blog post
+===============
+
+Welcome to the first blog post

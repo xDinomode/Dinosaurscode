@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+  padding:10px;
+  margin:0;
+}
+body{
+  background-color: white;
+  padding:0;
+  margin: 0;
+  color:#151515;
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+    color: #4078c0;
+    text-decoration: none;
+}
+
+/*header css*/
+#header{
+  width:25%;
+  background-color:#000D17;
+  float:left;
+}
+
+#header .nav{
+  text-align:center;
+}
+#header .nav ul{
+  list-style-type: none;
+}
+#header .nav ul li{
+
+}
+#header .nav ul li a{
+  display:inline-block;
+  height: 42px;
+  color:#cccccc;
+  text-decoration: none;
+}
+/*end of header css*/
+
+/*footer css*/
+#footer{
+  width:100%;
+  height: 90px;
+  background: #151515;
+  clear: both;
+}
+/*end footer css*/
+
+/*post css*/
+.post{
+  width:74%;
+  margin:0 auto;
+}
+.post-header{
+  color:#151515;
+  text-align:center;
+}
+.post-meta{
+  color:#cccccc;
+  font-size: 12px;
+  text-align:left;
+}
+.post-content{
+  font-size: 21px;
+  text-align:center;
+}
+/*end of post css*/
+
+/*page content css*/
+.page-content{
+  width: 75%;
+  margin:0 auto;
+  float:left;
+}
+.page{
+
+}
+.page .page-header{
+  border-bottom: 4px solid #151515;
+}
+.page .page-header .page-title{
+  text-align:center;
+}
+.page .page-content{
+  font-family: Helvetica, sans-serif;
+  font-size:1.25em;
+  width:100%;
+}
+.page a{
+  text-decoration: none;
+}
+.page img{
+  display: block;
+  width:60%;
+  margin:0 auto;
+}
+/*end page content css*/
