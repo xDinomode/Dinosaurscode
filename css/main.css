@@ -11,11 +11,6 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
-a {
-    color: #4078c0;
-    text-decoration: none;
-}
-
 /*header css*/
 #header{
   width:25%;
@@ -67,6 +62,10 @@ a {
   font-size: 21px;
   text-align:center;
 }
+.post a {
+    color: #4078c0;
+    text-decoration: none;
+}
 /*end of post css*/
 
 /*page content css*/
@@ -98,3 +97,44 @@ a {
   margin:0 auto;
 }
 /*end page content css*/
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+/*end of Underline from center*/
+.x{
+  color:#151515;
+}
+.x:hover{
+  color:#2098d1;
+}
