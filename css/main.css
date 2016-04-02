@@ -12,6 +12,10 @@ body{
 }
 a{
   color: #4078c0;
+  padding: 0;
+}
+strong{
+  padding:0;
 }
 /*header css*/
 #header{
@@ -67,7 +71,7 @@ a{
 }
 .post-content{
   font-size: 21px;
-  text-align:center;
+  text-align:left;
 }
 .post a {
     color: #4078c0;
