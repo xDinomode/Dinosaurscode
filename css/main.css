@@ -50,14 +50,12 @@ strong{
 /*footer css*/
 #footer{
   width:100%;
-  height: 90px;
   background: #151515;
   clear: both;
 }
 
 #footer-pages{
   width:100%;
-  height:29px;
   text-align: center;
 }
 #footer-pages ul{
@@ -73,6 +71,19 @@ strong{
 }
 #footer-pages a:hover{
   color:white;
+}
+
+#social-footer-icons{
+  text-align:center;
+}
+#social-footer-icons a{
+
+}
+#social-footer-icons a:hover{
+  color:white;
+}
+.twitter{
+  font-size:30px;
 }
 /*end footer css*/
 
@@ -177,6 +188,7 @@ strong{
 .x:hover{
   color:#2098d1;
 }
+
 /*end*/
 
 /*Start Media Query for mobile users 640px*/
