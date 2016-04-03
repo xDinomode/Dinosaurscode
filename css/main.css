@@ -22,6 +22,7 @@ strong{
   width:25%;
   background-color:#000D17;
   float:left;
+
 }
 
 #header .nav{
@@ -57,6 +58,7 @@ strong{
 #footer-pages{
   width:100%;
   height:29px;
+  text-align: center;
 }
 #footer-pages ul{
   padding:0;
@@ -68,6 +70,9 @@ strong{
 #footer-pages a{
   text-decoration:none;
   font-size: 0.75em;
+}
+#footer-pages a:hover{
+  color:white;
 }
 /*end footer css*/
 
@@ -92,6 +97,10 @@ strong{
 .post a {
     color: #4078c0;
     text-decoration: none;
+}
+.post img{
+  max-width:100%;
+  height: auto;
 }
 /*end of post css*/
 
@@ -160,9 +169,37 @@ strong{
   right: 0;
 }
 /*end of Underline from center*/
+
+/*start*/
 .x{
   color:#151515;
 }
 .x:hover{
   color:#2098d1;
 }
+/*end*/
+
+/*Start Media Query for mobile users 640px*/
+@media (max-width: 640px) {
+  body{
+
+  }
+  #header{
+    float: none;
+    width:100%;
+  }
+  #header .nav {
+    width:100%
+  }
+  #header ul li{
+    display: inline;
+  }
+  .page-content{
+    float: none;
+    width: 99%;
+  }
+  .post{
+    width: 100%;
+  }
+}
+/*End media query 640px*/
