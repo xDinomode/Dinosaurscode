@@ -1,6 +1,6 @@
 *{
   box-sizing: border-box;
-  padding:10px;
+  padding:6px;
   margin:0;
 }
 body{
@@ -37,14 +37,12 @@ hr.style-one {
 /*header css*/
 #header{
   width:25%;
-  background-color:#000D17;
   float:left;
-
 }
 
 #header .nav{
   text-align:center;
-
+  background-color:#1c1c1c;
 }
 #header .nav ul{
   list-style-type: none;
@@ -61,6 +59,12 @@ hr.style-one {
 }
 #header .nav ul li a:hover{
   color:white;
+}
+#ad{
+  width: 100%;
+  background-color:red;
+  margin-top:11px;
+  padding: 0;
 }
 /*end of header css*/
 
@@ -233,9 +237,15 @@ hr.style-one {
   .post{
     width: 100%;
   }
+  #wrapper{
+    width:100%;
+    padding:0;
+  }
+  #ad{
+    padding:0;
+  }
 }
 /*End media query 640px*/
 .twitter-share-button{
   padding:0;
-
 }
