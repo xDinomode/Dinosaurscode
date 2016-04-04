@@ -2,6 +2,7 @@
 layout: post
 title: "What's the best text editor?"
 description: "Which text editor should you use? What is the best text editor? Atom, Brackets, Vim, Emacs."
+category: tips
 ---
 
 So I'm just going to get this out of the way and say there is no best text editor. Why? Because they

@@ -2,6 +2,7 @@
 layout: post
 title: "Why programmers should use Reddit"
 description: "In this article we discuss the benefits of using Reddit for programming help."
+category: tips
 ---
 
 [Reddit](https://reddit.com) defines itself as **"the front page of the internet."** And it's exactly that.

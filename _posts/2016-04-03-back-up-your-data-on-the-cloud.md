@@ -2,6 +2,7 @@
 layout: post
 title: "Here's how to back up your data"
 description: "Back up your data on the cloud. Google Drive. How to."
+category: tips
 ---
 
 One word [Google Drive](https://www.google.com/drive/). Oops that's two.
