@@ -18,3 +18,7 @@ url: "http://dinosaurscode.xyz" # the base hostname & protocol for your site
 # Build settings
 permalink: /:categories/:year/:month/:day/:title/
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false
