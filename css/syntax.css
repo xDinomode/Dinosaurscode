@@ -67,3 +67,9 @@ code{
 code span{
   padding:0;
 }
+.highlight{
+  overflow-x:auto;
+  overflow-y: hidden;
+  background-color: #f7f7f7;
+  border:1px solid #e7e7e7;
+}
