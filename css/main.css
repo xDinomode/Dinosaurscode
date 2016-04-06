@@ -35,6 +35,9 @@ hr.style-one {
     background: #333;
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
+iframe{
+  padding:0;
+}
 /*header css*/
 #header{
   width:25%;
@@ -212,6 +215,37 @@ hr.style-one {
 
 /*end*/
 
+/*Start share buttons*/
+.twitter-share-button{
+  padding:0;
+  display:block;
+  margin-top:20px;
+}
+.fb-share-button{
+  top:0;
+  padding:0;
+  left: -5px;
+  display: block;
+}
+.fb_iframe_widget{
+  padding:0;
+  position:absolute;
+}
+#facebook{
+  padding:0;
+}
+#fb-root{
+  padding:0;
+}
+#share-wrapper{
+  text-align:right;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding:0;
+}
+/*End share buttons*/
+
 /*Start Media Query for mobile users 640px*/
 @media (max-width: 640px) {
   body{
@@ -244,8 +278,21 @@ hr.style-one {
   #ad{
     padding:0;
   }
+  #share-wrapper{
+    position: relative;
+    padding-bottom: 40px;
+    margin:0 auto;
+  }
+  .twitter-share-button{
+    float:right;
+    margin: 0 auto;
+  }
+  .fb-share-button{
+    float: right;
+    margin-right: 9px;
+  }
+  .twitter-share-button{
+
+  }
 }
 /*End media query 640px*/
-.twitter-share-button{
-  padding:0;
-}
