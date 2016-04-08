@@ -1,3 +1,4 @@
+
 *{
   box-sizing: border-box;
   padding:6px;
@@ -246,6 +247,14 @@ iframe{
 }
 /*End share buttons*/
 
+/*Start 404*/
+.page-not-found{
+  text-align:center;
+  padding: 250px 0px;
+  color:orange;
+}
+/*End 404*/
+
 /*Start Media Query for mobile users 640px*/
 @media (max-width: 640px) {
   body{
@@ -294,5 +303,11 @@ iframe{
   .twitter-share-button{
 
   }
+
+  /*Start 404*/
+  .page-not-found{
+    padding: 136px 0px;
+  }
+  /*End 404*/
 }
 /*End media query 640px*/
