@@ -23,5 +23,10 @@ kramdown:
   input: GFM
   hard_wrap: false
 
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+
 environment: production
 #production

@@ -1,0 +1,30 @@
+{
+  "name": "xdinomode",
+  "version": "1.0.0",
+  "description": "This is a blog written in Jekyll\r -----",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xDinomode/jekylltest.git"
+  },
+  "author": "xDinomode <xdinomode@gmail.com> (https://github.com/xDinomode)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xDinomode/jekylltest/issues"
+  },
+  "homepage": "https://github.com/xDinomode/jekylltest#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.5",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "jshint": "^2.9.1"
+  }
+}
