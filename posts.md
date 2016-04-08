@@ -18,6 +18,6 @@ title: "Posts"
 <hr class = "style-one">
 
 # How to
-{% for post in site.categories["How to"] %}
+{% for post in site.categories["How-to"] %}
   <p><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta">{{ post.date | date_to_string }}</span></p>
 {% endfor %}

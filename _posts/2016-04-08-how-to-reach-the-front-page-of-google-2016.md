@@ -2,7 +2,7 @@
 layout: post
 title: "How To Reach the Front Page of Google 2016"
 description: "So you want to know how to reach the front page  of google?"
-category: How to
+category: How-to
 ---
 
 So you want to reach the front page of Google?
