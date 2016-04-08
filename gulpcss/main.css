@@ -166,7 +166,7 @@ iframe{
 }
 .page img{
   display: block;
-  width:60%;
+  width:70%;
   margin:0 auto;
 }
 /*end page content css*/
@@ -262,6 +262,9 @@ iframe{
   }
   .page{
     height: auto;
+  }
+  .page img{
+    width: 100%;
   }
   #header{
     float: none;

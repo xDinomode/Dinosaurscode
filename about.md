@@ -2,11 +2,15 @@
 layout: page
 title: About
 ---
+<br>
+<br>
 
-I'm building this website in order to help others. Mainly with tips and advice on programming or technology in
-general.
+**This blog's purpose is to teach others new programming tips and tricks.**
+<br>
+<br>
 
-Feel free to read my [posts](/posts) (on the left).
+Feel free to read my [posts](/posts)
+<br>
+<br>
 
-Also this website is a work in progress. Especially the design because I'm building it from scratch. The code is on
-github and if you know some [jekyll](https://jekyllrb.com/)/css feel free to help out! :D
+![cat meme](http://s2.quickmeme.com/img/a9/a9b3d5ec80c4ebd0d2be548c70fea7afdace44304e58ea9e92628f27e121f8e0.jpg)
