@@ -78,7 +78,8 @@ $ node index.js
 Your app is live simply click the preview button next to run to view it.
 
 ![app](/images/c9app.png)
-
+<br>
+<br>
 
 **Note** Make sure your app is listening on the correct port:
 

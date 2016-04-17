@@ -7,11 +7,11 @@ body{
   padding:0;
   margin: 0;
   color:#151515;
-  font-family: Helvetica, sans-serif;
+  /*font-family: Helvetica, sans-serif;*/
   font-smoothing: antialised;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Droid Sans', Helvetica, sans-serif;
+  font-family: 'Oswald', Helvetica, sans-serif;
   font-weight: bold;
   padding: 6px;
 }
@@ -23,8 +23,9 @@ strong{
   padding:0;
 }
 p{
-  font-family: 'Droid Sans', Helvetica, sans-serif;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
   padding: 6px;
+  line-height: 150%;
 }
 hr{
   padding:0;
@@ -161,6 +162,14 @@ iframe{
 .post img{
   max-width:100%;
   height: auto;
+}
+.post-latest{
+    list-style-type: none;
+}
+.post-latest li{
+  list-style-type: none;
+  padding: 11px 0px;
+  font-size: 21px;
 }
 /*end of post css*/
 

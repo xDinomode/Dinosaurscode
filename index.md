@@ -10,3 +10,13 @@ Learn programming tips and tricks.
 {% include homebutton.html %}
 
 ![welcome page](/images/welcome.png)
+
+### Latest Posts
+
+<ul class = "post-latest">
+  {% for post in site.posts offset: 0 limit: 3 %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta">Posted on <a href ="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }}</a></span>
+    </li>
+  {% endfor %}
+</ul>
