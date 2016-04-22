@@ -14,7 +14,7 @@ category: NodeJS
 
 Make sure your app is on github.
 
-![example repo](/images/example.png)
+![example repo](/images/example.PNG)
 <br>
 <br>
 
@@ -23,7 +23,7 @@ Make sure your app is on github.
 
 Head to the page(logged in) [https://c9.io/account/services](https://c9.io/account/services) and click on Connected Services. Lastly click the green button "connect" next to Github.
 
-![c9.io](/images/c9github.png)
+![c9.io](/images/c9github.PNG)
 <br>
 <br>
 
@@ -32,7 +32,7 @@ Head to the page(logged in) [https://c9.io/account/services](https://c9.io/accou
 
 Click the green button "Authorize application"
 
-![Auth Github](/images/githubauth.png)
+![Auth Github](/images/githubauth.PNG)
 <br>
 <br>
 
@@ -40,7 +40,7 @@ Click the green button "Authorize application"
 
 Find your Github repo from the list and click "Clone to edit"
 
-![c9 repos](/images/c9repos.png)
+![c9 repos](/images/c9repos.PNG)
 <br>
 <br>
 
@@ -49,7 +49,7 @@ Find your Github repo from the list and click "Clone to edit"
 
 Then click Create Workspace
 
-![c9 new](/images/c9new.png)
+![c9 new](/images/c9new.PNG)
 <br>
 <br>
 
@@ -68,7 +68,7 @@ Start your app
 $ node index.js
 ```
 
-![c9 terminal](/images/c9run.png)
+![c9 terminal](/images/c9run.PNG)
 <br>
 <br>
 
@@ -77,7 +77,7 @@ $ node index.js
 
 Your app is live simply click the preview button next to run to view it.
 
-![app](/images/c9app.png)
+![app](/images/c9app.PNG)
 <br>
 <br>
 
