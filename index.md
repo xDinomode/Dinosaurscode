@@ -5,7 +5,8 @@ description: Learn new programming tips and tricks. Web design, Web development,
 ---
 <br>
 
-Learn programming tips and tricks.
+<span style="color:#ff2c2c;font-size:33px;">&lt;</span><span style="color:#ff2c2c;font-size:33px;">Learn</span> <span style="color:#682cff;font-size:33px;">new <span style="color:#2cffe4;font-size:33px;">code</span>&gt;
+
 
 {% include homebutton.html %}
 

@@ -5,11 +5,11 @@ title: About
 <br>
 <br>
 
-**This blog's purpose is to teach others new programming tips and tricks.**
-<br>
-<br>
+# What's this website about?
 
-Feel free to read my [posts](/posts)
+A place to learn new and creative programming skills.
+
+
 <br>
 <br>
 

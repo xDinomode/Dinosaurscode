@@ -46,10 +46,18 @@ iframe{
 #wrapper{
 
 }
+
 /*header css*/
+#ribbon{
+  width:100%;
+  height:6px;
+  background-color: #36cefb;
+}
+
 #header{
   width:100%;
   font-weight: bold;
+  font-family: Helvetica, sans-serif;
   /*float: left;*/
 }
 
@@ -232,7 +240,7 @@ iframe{
   left: 50%;
   right: 50%;
   bottom: 0;
-  background: #2098d1;
+  background: #36cefb;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
@@ -313,6 +321,10 @@ iframe{
   }
   #header .nav {
     width:100%
+    padding: 0;
+  }
+  #header .nav ul{
+    padding: 0;
   }
   #header ul li{
     display: inline;
@@ -364,7 +376,6 @@ iframe{
   /*End 404*/
 }
 /*End media query 640px*/
-
 
 /*BEGIN syntax.css*/
 .highlight  { background: #fffff; padding:0; margin:0; word-spacing: -100%;}
