@@ -9,9 +9,7 @@ Learn programming tips and tricks.
 
 {% include homebutton.html %}
 
-![welcome page](/images/welcome.png)
-
-### Latest Posts
+### RECENT POSTS
 
 <ul class = "post-latest">
   {% for post in site.posts offset: 0 limit: 3 %}
