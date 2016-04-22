@@ -27,20 +27,30 @@ gulp.task("compress", function(){
 //     .pipe(gulp.dest("_site"));
 // });
 
-gulp.task("compressimage", function(){
-  return gulp.src("images/*")
-    .pipe(imagemin({
-      progressive: true,
-      use: [pngquant()]
-    }))
-    .pipe(gulp.dest("images"));
-});
+//
+// gulp.task("compressimage", function(){
+//   return gulp.src("images/*")
+//     .pipe(imagemin({
+//       progressive: true,
+//       use: [pngquant()]
+//     }))
+//     .pipe(gulp.dest("images"));
+// });
 
 gulp.task("watch", function(){
   gulp.watch("gulpcss/*.css", ["minify-css"]);
   gulp.watch("gulpjs/*.js", ["compress"]);
-  gulp.watch("images/*", ["compressimage"]);
+  // gulp.watch("images/*", ["compressimage"]);
+  gulp.watch("images/*")
+    .on("change", function(file){
+      return gulp.src(file.path)
+        .pipe(imagemin({
+          progressive: true,
+          use: [pngquant()]
+        }))
+        .pipe(gulp.dest("images"));
+    });
   // gulp.watch("_site/**/*.html", ["minifyhtml"]);
 });
 
-gulp.task("default", ['minify-css', "compress", "compressimage", 'watch']);
+gulp.task("default", ['minify-css', "compress", 'watch']);
