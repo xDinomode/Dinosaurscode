@@ -156,7 +156,8 @@ iframe{
   color:#777;
   font-size: 14px;
   text-align:left;
-  margin-left: 5px;
+  padding:0;
+  padding: 6px 0px;
 }
 .post-content{
   font-size: 21px;
@@ -173,6 +174,7 @@ iframe{
 .post img{
   max-width:100%;
   height: auto;
+  border: 1px solid #ddd;
 }
 .post-latest{
     list-style-type: none;
@@ -276,6 +278,7 @@ iframe{
   padding:0;
   left: -5px;
   display: block;
+  margin-top: 5px;
 }
 .fb_iframe_widget{
   padding:0;

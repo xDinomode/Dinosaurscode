@@ -35,4 +35,4 @@ Speaking of Reddit they fail too.
 
 ![Dinosaurscode Speed Test](/images/dinosaurscodetest.png)
 
-PASSED! 
+PASSED!
