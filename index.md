@@ -15,7 +15,7 @@ description: Learn new programming tips and tricks. Web design, Web development,
 <ul class = "post-latest">
   {% for post in site.posts offset: 0 limit: 3 %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta">Posted on <a href ="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }}</a></span>
+      <a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> Posted on <a href ="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }}</a></span>
     </li>
   {% endfor %}
 </ul>
