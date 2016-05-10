@@ -21,3 +21,10 @@ title: "Posts"
 {% for post in site.categories["How-to"] %}
   <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
 {% endfor %}
+
+<hr class = "style-one">
+
+# Hacking
+{% for post in site.categories["Hacking"] %}
+  <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
+{% endfor %}
