@@ -1,4 +1,9 @@
 <head>
+  <script type="text/javascript">
+    var host = "dinosaurscode.xyz";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+  </script>
   <meta name="google-site-verification" content="dZ_vY_6pq6z_3n_vtfZ14Ksuica16LH4zU9h5E4P47I" />
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +12,9 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ 'Dinosaurscode ' }}{{ page.title }}{% endif %}">
   <link rel="stylesheet" href="/css/main.css">
-
+  
+  <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
+  
   {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="5; url=/">
   {% endif %}

@@ -11,7 +11,8 @@ title: Dinosaurscode
 description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://dinosaurscode.xyz" # the base hostname & protocol for your site
+url: "https://dinosaurscode.xyz" # the base hostname & protocol for your site
+enforce_url: "dinosaurscode.xyz"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
