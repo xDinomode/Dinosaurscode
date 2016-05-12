@@ -15,7 +15,7 @@ Windows users simply click "download a .exe file"
 
 Add the youtube-dl.exe to your PATH or simply run the commands from where it's located
 
-![install youtube-dl](/images/youtubedlinstall.PNG)
+![install youtube-dl](/images/youtubedlinstall.png)
 
 ### 2. Download the video from the command line/terminal
 
