@@ -15,13 +15,13 @@ Windows users simply click "download a .exe file"
 
 Add the youtube-dl.exe to your PATH or simply run the commands from where it's located
 
-![install youtube-dl](/images/youtubedlinstall.png)
+![install youtube-dl](/images/youtubedlinstall.PNG)
 
 ### 2. Download the video from the command line/terminal
 
 First grab the Youtube URL
 
-![youtube url](/images/youtubedldownload.png)
+![youtube url](/images/youtubedldownload.PNG)
 
 youtube-dl followed with the url to download the full video
 
@@ -29,9 +29,9 @@ youtube-dl followed with the url to download the full video
 $ youtube-dl youtubeurlhere
 ```
 
-![youtube cmd](/images/youtubedlcmd.png)
+![youtube cmd](/images/youtubedlcmd.PNG)
 
-![download](/images/youtubdownload.png)
+![download](/images/youtubdownload.PNG)
 
 ### 3. Or custom download it
 
@@ -43,7 +43,7 @@ using the -F option will output different formats. Select one using the -f follo
 $ youtube-dl -F youtubeurlhere
 ```
 
-![format youtube](/images/youtubeformat.png)
+![format youtube](/images/youtubeformat.PNG)
 
 once you find a format you want simply
 
@@ -51,4 +51,4 @@ once you find a format you want simply
 $ youtube-dl -f formatcode youtubeurlhere
 ```
 
-![new format](/images/youtubedlformat.png)
+![new format](/images/youtubedlformat.PNG)
