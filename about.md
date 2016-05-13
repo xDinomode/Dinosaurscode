@@ -7,7 +7,9 @@ title: About
 
 # What's this website about?
 
-A place to learn new and creative programming skills.
+A blog in which I'll share awesome tips and tricks related to computer programming. 
+
+Read my [posts](/posts)!
 
 
 <br>

@@ -87,6 +87,9 @@ iframe{
 #header .nav ul li a:hover{
 
 }
+#indexwelcome{
+    font-size: 1.5em;
+}
 #ad{
   width:60%;
   height: auto;
@@ -178,11 +181,15 @@ iframe{
 }
 .post-latest{
     list-style-type: none;
+    background-color: #272727;
 }
 .post-latest li{
   list-style-type: none;
   padding: 11px 0px;
   font-size: 21px;
+}
+.post-latest li a{
+    color:white;
 }
 /*end of post css*/
 
@@ -312,6 +319,10 @@ iframe{
   body{
 
   }
+  .page-content{
+      width: 100%;
+      padding:0;
+  }
   .page{
     height: auto;
   }
@@ -332,6 +343,7 @@ iframe{
   #header ul li{
     display: inline;
   }
+
   .page-content{
     float: none;
     width: 99%;
@@ -346,6 +358,9 @@ iframe{
     width: 100%;
     text-align:left;
     padding: 0;
+  }
+  .post-latest li{
+      padding: 18px 0px;
   }
   #wrapper{
     width:100%;
