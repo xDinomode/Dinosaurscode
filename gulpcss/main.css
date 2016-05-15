@@ -396,7 +396,7 @@ iframe{
 /*End media query 640px*/
 
 /*BEGIN syntax.css*/
-.highlight  { background: #fffff; padding:0; margin:0; word-spacing: -100%;}
+.highlight  { background: #fffff; padding:0; margin:0; word-spacing: 0%;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */

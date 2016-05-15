@@ -13,7 +13,7 @@ The only requirements are a Gmail account and Python 3.4.
 
 Replace fromaddr with your email, toaddr with the recipient's email, and enter your password for your gmail in "YOUR_PASSWORD_HERE"
 
-```dos
+```python
 import smtplib
 
 fromaddr = "YOUR_EMAIL_HERE@gmail.com"
@@ -25,7 +25,6 @@ server = smtplib.SMTP("smtp.gmail.com:587")
 server.starttls()
 server.login(fromaddr, "YOUR_PASSWORD_HERE")
 server.sendmail(fromaddr, toaddr, msg)
-server.quit()
 ```
 
 # 2. By default Gmail wont let your program send email
@@ -34,12 +33,12 @@ So login and go to [https://www.google.com/settings/security/lesssecureapps](htt
 
 And click "Turn on" 
 
-![gmail allow](/images/gmailpython.PNG)
+![gmail allow](/images/gmailpython.png)
 
 # 3. Run it
 
 Run it from the command line 
 
-```dos
+```python
 python sendemail.py
 ```

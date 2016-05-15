@@ -25,7 +25,7 @@ First grab the Youtube URL
 
 youtube-dl followed with the url to download the full video
 
-```cmd
+```shell
 $ youtube-dl youtubeurlhere
 ```
 
@@ -39,7 +39,7 @@ You can view the different format options to download a smaller file or only aud
 
 using the -F option will output different formats. Select one using the -f followed by the format code
 
-```cmd
+```shell
 $ youtube-dl -F youtubeurlhere
 ```
 
@@ -47,7 +47,7 @@ $ youtube-dl -F youtubeurlhere
 
 once you find a format you want simply
 
-```cmd
+```shell
 $ youtube-dl -f formatcode youtubeurlhere
 ```
 
