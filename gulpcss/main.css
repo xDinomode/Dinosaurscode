@@ -181,7 +181,6 @@ iframe{
 }
 .post-latest{
     list-style-type: none;
-    background-color: #272727;
 }
 .post-latest li{
   list-style-type: none;
@@ -189,7 +188,6 @@ iframe{
   font-size: 21px;
 }
 .post-latest li a{
-    color:white;
 }
 /*end of post css*/
 
