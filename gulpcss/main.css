@@ -464,6 +464,8 @@ code span{
   padding:0;
 }
 .highlight{
+  padding: 8px;
+  font-size: 0.688em; 
   overflow-x:auto;
   overflow-y: hidden;
   background-color: #f7f7f7;

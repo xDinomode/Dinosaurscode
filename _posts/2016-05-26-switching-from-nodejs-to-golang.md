@@ -17,9 +17,11 @@ Because coding in Javascript is a pain. So everyone just accepts inserting code 
 
 #### Golang for web development
 
-Just as Node uses http Golang uses net/http.
+<br>
 
-Here's a Go web server for you
+Golang comes with a package named **net/http** that helps build powerful and robust websites easily. 
+
+<br>
 
 ```go
 package main
@@ -36,17 +38,17 @@ func main(){
 }
 ```
 
-**package main** Tells go that this is going to be an executable and not a package for other go programs.
+**package main** Tells go that this is going to be an executable. 
 
-**import net/http** A package the same as node's var http = require("http") 
+**import net/http** The same as Node's http module. 
 
 **func handle()** This function will handle the client's http request/response
 
 **func main()** Go programs that start with package main require a main function to tell the compiler where to begin.
 
-**http.HandleFunc()** Routes requests to / to our handle function
+**http.HandleFunc()** First parameter is the url path and the second is the function that will handle it.
 
-**http.ListenAndServe(":3000", nil)** First parameter is the port number and the second is a mux which is a fancy way to say router. Value nil will use the default go router.
+**http.ListenAndServe(":3000", nil)** Starts the web server on port 3000. Leave the second parameter nil. 
 
 <br>
 
@@ -63,7 +65,7 @@ func main(){
 }
 ```
 
-Assuming your files are in a public folder you'll now be able to access anything in /public on a browser.
+This time instead of passing a function we pass an http method called FileServer. It will serve anything inside the directory as is. 
 
 <br>
 
