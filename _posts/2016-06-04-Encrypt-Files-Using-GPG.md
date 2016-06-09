@@ -5,6 +5,11 @@ title: "Encrypt Files Using GPG - How To"
 category: How-to
 ---
 
+Keeping your data secure is very important! Using GPG you can encrypt files easily and store them on a USB or on the cloud without worrying about prying eyes.
+
+<!--more-->
+
+
 ### Step 1. [Install GPG](https://www.gnupg.org/download/) 
 
 #### Windows Users:

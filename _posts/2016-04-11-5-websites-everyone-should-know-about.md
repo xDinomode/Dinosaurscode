@@ -6,6 +6,9 @@ will improve your browsing."
 category: tips
 ---
 
+Here are a few websites I find can be very useful in the right hands.
+<!--more-->
+
 ## 1. [smmry.com](http://smmry.com/)
 
 Sometimes articles can get too long. To shorten them into a a **tl'dr** we simply paste the website's url into smmry

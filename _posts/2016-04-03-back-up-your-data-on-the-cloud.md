@@ -10,6 +10,8 @@ One word [Google Drive](https://www.google.com/drive/). Oops that's two.
 
 Chances are you have precious and valuable images/videos on your device. Yes? Ok then here's how to keep that safe.
 
+<!--more-->
+
 More than likely you already have a [Gmail](https://gmail.com) account.
 
 If so go ahead and type the url [drive.google.com](https://drive.google.com). Signed in of course. If not go make a gmail then come back.

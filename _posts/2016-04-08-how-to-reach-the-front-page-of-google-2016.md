@@ -6,8 +6,9 @@ category: How-to
 ---
 
 So you want to reach the front page of Google?
-<br>
-<br>
+
+<!--more-->
+
 
 ok...
 <br>

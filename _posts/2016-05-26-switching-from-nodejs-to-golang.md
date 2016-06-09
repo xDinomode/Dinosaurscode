@@ -7,6 +7,8 @@ category: go
 
 NodeJS is for inexperienced programmers A.K.A front end developers that want to have a go at the back end.  
 
+<!--more-->
+
 Node's website starts you off by showing a simple web server written in Node (Javascript). Using only the http module. 
 
 Of course no one starts off with only the http module. Everyone grabs their framework such as Express and begins downloading tons of other modules. Why? 

@@ -7,6 +7,8 @@ category: tips
 
 I decided to put a couple of websites under Google's [PageSpeed Test](https://developers.google.com/speed/pagespeed/insights/) and was astonished at the results I found!
 
+<!--more-->
+
 # First up is [Forbes](forbes.com)
 
 ![Forbes Page Speed Test](/images/forbestest.png)

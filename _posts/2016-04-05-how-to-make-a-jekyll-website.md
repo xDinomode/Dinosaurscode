@@ -5,6 +5,12 @@ description: "Learn how to make a website using Jekyll and hosted for free on Gi
 category: NodeJS
 ---
 
+Static site generators are in. They provide security from hackers because there's no database involved! 
+
+Let's learn how to set up Jekyll and Github together.
+
+<!--more-->
+
 ### 1. Install [Jekyll](https://jekyllrb.com/docs/installation/)
 
 ```bash

@@ -7,6 +7,8 @@ category: tips
 
 [Reddit](https://reddit.com) defines itself as **"the front page of the internet."** And it's exactly that.
 
+<!--more-->
+
 In case you've been living under a rock, Reddit is a website where users submit content found all over the internet. Other users get to upvote/downvote said posts.
 
 Apart from the usual memes, this website is incredibly powerful for a programmer.

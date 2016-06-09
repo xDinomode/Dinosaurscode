@@ -5,8 +5,10 @@ description: "Learn how to deploy your NodeJS app to the web for free. Using Git
 category: NodeJS
 ---
 
-#### Today we'll be learning how to deploy a node js app to the web using [Github](https://github.com) and [c9.io](https://c9.io)
-<br>
+Today we'll be learning how to deploy a node js app to the web using [Github](https://github.com) and [c9.io](https://c9.io)
+
+<!--more-->
+
 <br>
 
 ### 1. Place app on Github

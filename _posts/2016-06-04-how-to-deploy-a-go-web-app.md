@@ -8,6 +8,8 @@ category: go
 
 In this tutorial I'll show how to deploy your go web app to production. I'm running on a Ubuntu 14.04 machine. 
 
+<!--more-->
+
 <br>
 
 ### Step 1. Install [supervisor](http://supervisord.org/installing.html) 

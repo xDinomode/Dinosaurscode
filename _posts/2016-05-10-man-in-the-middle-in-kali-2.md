@@ -5,6 +5,12 @@ category: Hacking
 description: "Learn how to perform a man in the middle using Kali 2 with arpspoof. Caputure images and urls."
 ---
 
+A man in the middle attack is simply someone sitting in between your browser and a legitimate website. Data can be altered or snooped on during this.  
+
+Arp spoofing is the process of making machines on your network believe you are the gateway. Thus all data flows through you and vice versa.
+
+<!--more-->
+
 ![Man in the middle](/images/mitm.png)
 
 Today we'll be looking at how to perform a Man In The Middle to capture images and urls by the victim.
@@ -64,3 +70,5 @@ $ driftnet -i eth0
 ```shell
 $ urlsnarf -i eth0
 ```
+
+Or simply open up [Wireshark](https://www.wireshark.org/) and capture packets passing through you.

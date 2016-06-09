@@ -5,7 +5,11 @@ description: "Which text editor should you use? What is the best text editor? At
 category: tips
 ---
 
-So I'm just going to get this out of the way and say there is no best text editor. Why? Because they
+So you want to know what text editor is the best?
+
+<!--more-->
+
+Well I'm just going to get this out of the way and say there is no best text editor. Why? Because they
 each serve their purpose differently.
 
 Nonetheless here are my favorites in order.

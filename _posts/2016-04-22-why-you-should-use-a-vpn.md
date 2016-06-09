@@ -8,7 +8,7 @@ category: tips
 ISP's log every request you make and websites log your IP every time you connect to them.  
 
 Turn on your VPN and suddenly you're invisible to the world. So now you're probably asking "how do I get a VPN?" Ok here's how.
-
+<!--more-->
 # Install [CyberGhost](http://www.cyberghostvpn.com/)
 
 They keep no logs and it's completely **free**!

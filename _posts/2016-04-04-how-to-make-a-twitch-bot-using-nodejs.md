@@ -5,6 +5,10 @@ description: "Learn to make a twitch bot using node js."
 category: NodeJS
 ---
 
+Here's how to create a simple Twitch bot using NodeJS.
+
+<!--more-->
+
 I'm assuming you already have [NodeJS](https://nodejs.org) installed.
 
 If not go ahead and do that.

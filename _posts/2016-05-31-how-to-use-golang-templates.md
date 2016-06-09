@@ -5,6 +5,10 @@ title: "Golang Templates Made Easy"
 category: go
 ---
 
+Go provides helpful packages for web development. Templates come with the language and a powerful asset.
+
+<!--more-->
+
 Let's begin by serving a plain http file
 
 ```go

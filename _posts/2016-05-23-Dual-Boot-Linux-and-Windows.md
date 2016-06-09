@@ -5,6 +5,12 @@ title: "Dual Boot Linux/Windows"
 category: Hacking
 ---
 
+There are many benefits of using Linux over Windows. For one speed and security. No more worrying about viruses. 
+
+<!--more-->
+
+Plus Windows sucks right?
+
 Using YUMI you can boot from various different OS's. Including Linux and other helpful tools to troubleshoot a PC.
 
 ### To Install 

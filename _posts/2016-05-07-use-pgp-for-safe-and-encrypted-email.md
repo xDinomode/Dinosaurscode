@@ -7,6 +7,8 @@ category: tips
 
 Encryption is the only way to safely exchange information without worrying about it being tampered with or spied on.
 
+<!--more-->
+
 # 1. Install [GPG4Win](https://www.gpg4win.org/)
 
 ![gpg4win](/images/gpg4win.png)

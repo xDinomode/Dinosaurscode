@@ -22,6 +22,7 @@ permalink: /:categories/:year/:month/:day/:title/
 markdown: kramdown 
 highlighter: rouge 
 
+excerpt_separator: "<!--more-->"
 #markdown: kramdown
 
 #kramdown:

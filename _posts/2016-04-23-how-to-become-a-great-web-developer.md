@@ -4,6 +4,9 @@ title: "How To Become A Web Developer"
 description: "Learn what it takes to acquire the skills needed to be considered a Web Developer."
 category: "How-to"
 ---
+So you want to be a Web Developer?
+
+<!--more-->
 
 I'm going to start off by saying that you don't have to become a web developer to build websites. In fact it would be easiest to simply use a CMS such as [Wordpress](https://wordpress.com/) or [Drupal](https://www.drupal.org/).
 

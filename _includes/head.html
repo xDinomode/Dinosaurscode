@@ -18,7 +18,8 @@
   {% if page.url == "/404.html" %}
     <meta http-equiv="refresh" content="5; url=/">
   {% endif %}
-  
+ 
+  {% if site.environment == "production" %}
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
   (adsbygoogle = window.adsbygoogle || []).push({
@@ -26,4 +27,5 @@
 	          enable_page_level_ads: true
 			    });
   </script>
+  {% endif %}
 </head>

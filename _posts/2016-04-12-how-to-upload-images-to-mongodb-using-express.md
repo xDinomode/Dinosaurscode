@@ -4,7 +4,10 @@ title : "How To Upload Images to MongoDB using Express/Imgur clone"
 description: "Learn how to upload images to MongoDB. Create an image uploader app. Imgur clone in NodeJS and Express."
 category: NodeJS
 ---
-<br>
+
+This is an example of how to upload images to MongoDB using Express.
+
+<!--more-->
 
 ### 1. Create a package.json for your app
 

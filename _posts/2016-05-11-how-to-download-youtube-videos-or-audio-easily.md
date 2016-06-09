@@ -7,6 +7,8 @@ category: tips
 
 Using [youtube-dl](https://rg3.github.io/youtube-dl/) we can easily download Youtube videos or just the audio.
 
+<!--more-->
+
 ### 1. Install [youtube-dl](https://rg3.github.io/youtube-dl/)
 
 Go to the Github repo and scroll down until you see Installation
@@ -14,7 +16,6 @@ Go to the Github repo and scroll down until you see Installation
 Windows users simply click "download a .exe file"
 
 Add the youtube-dl.exe to your PATH or simply run the commands from where it's located
-
 ![install youtube-dl](/images/youtubedlinstall.png)
 
 ### 2. Download the video from the command line/terminal

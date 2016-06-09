@@ -7,6 +7,8 @@ category: python
 
 Today I'll be demonstrating how to send email using python. 
 
+<!--more-->
+
 The only requirements are a Gmail account and Python 3.4.
 
 # 1. Copy paste this into a .py file 

@@ -48,23 +48,20 @@ iframe{
 }
 
 /*header css*/
-#ribbon{
-  width:100%;
-  height:6px;
-  background-color: #36cefb;
-}
-
 #header{
   width:100%;
   font-weight: bold;
-  font-family: Helvetica, sans-serif;
+  font-family:"Oswald", Helvetica, sans-serif;
   /*float: left;*/
+  height: 94px;
 }
 
 #header .nav{
   text-align:center;
   background-color:#1c1c1c;
+  background-color:#f44747;
   width: 100%;
+  height: 100%;
   vertical-align: top;
   padding: 14px;
 }
@@ -82,13 +79,16 @@ iframe{
   height: 42px;
   color:white;
   text-decoration: none;
-  font-size: 18px;
+  /*font-size: 18px;*/
+  font-size: 1.1875em; 
 }
 #header .nav ul li a:hover{
 
 }
 #indexwelcome{
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
+    background-color: #d6d6d6;
+    padding: 20px;
 }
 #ad{
   width:60%;
@@ -107,7 +107,8 @@ iframe{
 #footer{
   width:100%;
   padding:20px;
-  background: #151515;
+  background-color: #151515;
+  background-color: #2b2636;
   clear: both;
 }
 
@@ -125,19 +126,21 @@ iframe{
 #footer-pages a{
   text-decoration:none;
   font-size: 0.75em;
+  color:white;
 }
 #footer-pages a:hover{
-  color:white;
+  /*color:white;*/
+  color: #4078c0;
 }
 
 #social-footer-icons{
   text-align:center;
 }
 #social-footer-icons a{
-
+  color: white;
 }
 #social-footer-icons a:hover{
-  color:white;
+  color:#4078c0;
 }
 .twitter{
   font-size:30px;
@@ -166,14 +169,27 @@ iframe{
   font-size: 21px;
   text-align:left;
 }
-.post-list{
+.posts{
+  width:74%;
+  margin:0 auto;
+  margin-top: 9px;
+}
+.posts-list{
   padding: 9px;
   text-align: left;
+  font-size: 1em;
 }
+.posts-list-excerpt{
+  font-size: 0.875em; 
+  margin:0;
+  color: #cccccc;
+}
+
 .post a {
     color: #4078c0;
     text-decoration: none;
 }
+
 .post img{
   max-width:100%;
   height: auto;
@@ -181,13 +197,19 @@ iframe{
 }
 .post-latest{
     list-style-type: none;
+    background-color:#202020;
+    text-align:left;
 }
 .post-latest li{
   list-style-type: none;
-  padding: 11px 0px;
+  padding: 15px 18px;
   font-size: 21px;
+  font-family: "Oswald";
 }
 .post-latest li a{
+}
+.post-latest li a:hover{
+	color:white;
 }
 /*end of post css*/
 
@@ -197,6 +219,11 @@ iframe{
   padding: 6px;
   margin:0 auto;
   /*float:left;*/
+}
+.page-content p{
+  text-align:left;
+}
+.page-content img{
 }
 .page{
 
@@ -315,7 +342,6 @@ iframe{
 /*Start Media Query for mobile users 640px*/
 @media (max-width: 640px) {
   body{
-
   }
   .page-content{
       width: 100%;
@@ -384,12 +410,32 @@ iframe{
   .twitter-share-button{
 
   }
-
+  .posts{
+    width: 88%;
+  }
   /*Start 404*/
   .page-not-found{
     padding: 136px 0px;
   }
   /*End 404*/
+}
+@media (max-width: 349px) {
+  body{
+  }
+  #header{
+  	padding:0;
+	height: 70px;
+  }
+  #header .nav{
+  	padding:0;
+  }
+  #header .nav ul{
+  	text-align:left;
+  }
+  #header .nav ul li{
+  	width:20%;
+	
+  }
 }
 /*End media query 640px*/
 

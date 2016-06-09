@@ -5,7 +5,10 @@ description: Node.JS express tutorial. How to build a website using NodeJS and E
 category: NodeJS
 ---
 
+
 [Express](http://expressjs.com/) is a web development framework that helps us build websites quickly and easily.
+
+<!--more-->
 
 >>> * Make sure you have [NodeJS](https://nodejs.org/en/) installed
 >>> * Open your terminal or command prompt

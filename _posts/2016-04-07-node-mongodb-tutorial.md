@@ -6,7 +6,9 @@ category: NodeJS
 ---
 
 Today I'll be demonstrating how to use [MongoDB](https://www.mongodb.org/) and [NodeJS](https://nodejs.org/en/) together.
-<br>
+
+<!--more-->
+
 <br>
 
 #### Requirements:

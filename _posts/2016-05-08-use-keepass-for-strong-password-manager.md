@@ -7,6 +7,8 @@ title: "Use KeePass to Manage Your Passwords"
 
 Stop creating your own passwords! Using a password manager can help you create strong encrypted passwords.
 
+<!--more-->
+
 # 1. Download [KeePass](http://keepass.info/download.html) Professional Edition
 
 ![keepass downloader](/images/keepass.png)

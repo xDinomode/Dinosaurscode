@@ -6,13 +6,12 @@ description: Learn new programming tips and tricks. Web design, Web development,
 <br>
 
 <div id = "indexwelcome">      
-<span style="color:#40E0D0;">if</span><span style="color:#D040E0;">(programming)</span><span style="color:black">{</span><br>
-<span style="text-align:center;color:#C5F5F0;">//is life</span><br>
-<span style="color:#e04081;">code.</span><span style="color:#40e07b;">now(); </span>
-<span style="color:black">}</span>
+<h3>Welcome to Dinosaurscode</h3>
+<p style="text-align:center;">A blog written for coders</p>
+{% include homebutton.html %}
 </div>
 <br>
-{% include homebutton.html %}
+
 
 ### RECENT POSTS
 
