@@ -11,7 +11,6 @@ title: "Posts"
 </div>
 {% endfor %}
 
-<hr class ="style-one">
 
 # NodeJS
 {% for post in site.categories["NodeJS"] %}
@@ -21,7 +20,6 @@ title: "Posts"
 </div>
 {% endfor %}
 
-<hr class = "style-one">
 
 # How to
 {% for post in site.categories["How-to"] %}
@@ -31,7 +29,6 @@ title: "Posts"
 </div>
 {% endfor %}
 
-<hr class = "style-one">
 
 # Hacking
 {% for post in site.categories["Hacking"] %}
@@ -41,7 +38,6 @@ title: "Posts"
 </div>
 {% endfor %}
 
-<hr class = "style-one">
 
 # Python
 {% for post in site.categories["python"] %}
@@ -51,10 +47,17 @@ title: "Posts"
 </div>
 {% endfor %}
 
-<hr class = "style-one">
 
 # Golang 
 {% for post in site.categories["go"] %}
+<div class="posts">
+  <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
+<div class="posts-list-excerpt">{{ post.excerpt }}</div>
+</div>
+{% endfor %}
+
+# Linux 
+{% for post in site.categories["linux"] %}
 <div class="posts">
   <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
 <div class="posts-list-excerpt">{{ post.excerpt }}</div>
