@@ -9,6 +9,8 @@ category: tips
 
 You open up your browser and type in the URI (URL but the correct way is URI) youtube.com and bam you're watching cat videos. But how does this work exactly? 
 
+<!--more-->
+
 <strong>Well it starts at your Web Browser.</strong> Most of use either use Google Chrome or Firefox and these applications do the heavy lifting for us.  
 They first need to translate youtube.com into an ip address. To do this your browser will send a request to a DNS server to query its database for the ip of the domain name. Websites are just machines with an application called web server running that will listen on a port number for incoming http requests. Of course to contact the web server we have to know its "IP address." Anything connected to the internet gets assigned an IP and through this address is able to contact other computers. 
 
