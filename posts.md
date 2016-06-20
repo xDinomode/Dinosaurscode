@@ -3,7 +3,7 @@ layout: page
 title: "Posts"
 ---
 
-### tips and tricks
+# Tips and Tricks
 {% for post in site.categories["tips"] %}
 <div class="posts">
   <p class = "posts-list"><a href="{{ post.url }}">{{ post.title }}</a><span class="post-meta"> {{ post.date | date_to_string }}</span></p>

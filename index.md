@@ -10,7 +10,6 @@ description: Learn new programming tips and tricks. Web design, Web development,
 <p style="text-align:center;">A blog written for coders</p>
 {% include homebutton.html %}
 </div>
-<br>
 
 
 ### RECENT POSTS
