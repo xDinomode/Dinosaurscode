@@ -265,17 +265,20 @@ func singupPage(res http.ResponseWriter, req *http.Request) {
         hashedPassword, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
         if err != nil {
             http.Error(res, "Server error, unable to create your account.", 500)    
+            return
         } 
 
         _, err = db.Exec("INSERT INTO users(username, password) VALUES(?, ?)", username, hashedPassword)
         if err != nil {
-            panic(err.Error)   
+            http.Error(res, "Server error, unable to create your account.", 500)    
+            return
         }
 
         res.Write([]byte("User created!"))
         return
     case err != nil: 
-        panic(err.Error())
+        http.Error(res, "Server error, unable to create your account.", 500)    
+        return
     default: 
         http.Redirect(res, req, "/", 301)
     }
@@ -320,17 +323,20 @@ func signupPage(res http.ResponseWriter, req *http.Request) {
         hashedPassword, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
         if err != nil {
             http.Error(res, "Server error, unable to create your account.", 500)    
+            return
         } 
 
         _, err = db.Exec("INSERT INTO users(username, password) VALUES(?, ?)", username, hashedPassword)
         if err != nil {
-            panic(err.Error)   
+            http.Error(res, "Server error, unable to create your account.", 500)    
+            return
         }
 
         res.Write([]byte("User created!"))
         return
     case err != nil: 
-        panic(err.Error())
+        http.Error(res, "Server error, unable to create your account.", 500)    
+        return
     default: 
         http.Redirect(res, req, "/", 301)
     }
