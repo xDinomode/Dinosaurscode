@@ -262,18 +262,21 @@ func singupPage(res http.ResponseWriter, req *http.Request) {
     switch {
     // Username is available
     case err == sql.ErrNoRows:
-       hashPassword, _ := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+        hashedPassword, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+        if err != nil {
+            http.Error(res, "Server error, unable to create your account.", 500)    
+        } 
 
-         _, err = db.Exec("INSERT INTO users(usrname, password) VALUES(?, ?)", username, password)
+        _, err = db.Exec("INSERT INTO users(username, password) VALUES(?, ?)", username, hashedPassword)
         if err != nil {
             panic(err.Error)   
         }
 
         res.Write([]byte("User created!"))
         return
-    case err != nil {
+    case err != nil: 
         panic(err.Error())
-    case default: 
+    default: 
         http.Redirect(res, req, "/", 301)
     }
 }
@@ -295,15 +298,14 @@ import _ "github.com/go-sql-driver/mysql"
 import "golang.org/x/crypto/bcrypt"
 
 import "net/http"
-import "fmt"
 
 var db *sql.DB
 var err error
 
 func signupPage(res http.ResponseWriter, req *http.Request) {
-	if req.Method != "POST" {
-		http.ServeFile(res, req, "signup.html")
-		return
+    if req.Method != "POST" {
+        http.ServeFile(res, req, "signup.html")
+        return
 	}
 
 	username := req.FormValue("username")
@@ -311,24 +313,29 @@ func signupPage(res http.ResponseWriter, req *http.Request) {
 
 	var user string
 
-	err := db.QueryRow("SELECT username FROM users WHERE username=?", username).Scan(&user)
-	switch {
-	case err == sql.ErrNoRows:
-		hashedPassword, _ := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+    err := db.QueryRow("SELECT username FROM users WHERE username=?", username).Scan(&user)
 
-		_, err = db.Exec("INSERT INTO users(username, password) VALUES(?, ?)", username, hashedPassword)
-		if err != nil {
-			panic(err.Error())
-		}
-		res.Write([]byte("User created!"))
-		return
-	case err != nil:
-		panic(err.Error())
-	default:
-		http.Redirect(res, req, "/", 301)
-	}
+    switch {
+    case err == sql.ErrNoRows:
+        hashedPassword, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+        if err != nil {
+            http.Error(res, "Server error, unable to create your account.", 500)    
+        } 
+
+        _, err = db.Exec("INSERT INTO users(username, password) VALUES(?, ?)", username, hashedPassword)
+        if err != nil {
+            panic(err.Error)   
+        }
+
+        res.Write([]byte("User created!"))
+        return
+    case err != nil: 
+        panic(err.Error())
+    default: 
+        http.Redirect(res, req, "/", 301)
+    }
 }
-
+	
 func loginPage(res http.ResponseWriter, req *http.Request) {
 	if req.Method != "POST" {
 		http.ServeFile(res, req, "login.html")
@@ -348,7 +355,7 @@ func loginPage(res http.ResponseWriter, req *http.Request) {
 		return
 	}
 
-	err = bcrypt.CompareHashAndPassword([]byte(pass), []byte(password))
+	err = bcrypt.CompareHashAndPassword([]byte(databasePassword), []byte(password))
 	if err != nil {
 		http.Redirect(res, req, "/login", 301)
 		return
