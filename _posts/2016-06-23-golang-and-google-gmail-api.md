@@ -283,3 +283,5 @@ Copy the authorization code and paste it into the terminal
 ![Gmail API authcode](/images/gmailapiauthcode.png)
 
 And that's it. Thanks for reading!
+
+Here's the full source code on [Github](https://github.com/xDinomode/Go-Gmail-Api-Example)
