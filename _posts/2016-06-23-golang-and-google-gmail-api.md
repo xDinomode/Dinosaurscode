@@ -7,6 +7,8 @@ description: "How to use Oauth2 and Gmail's API for sending email with Golang. T
 
 In this tutorial I'll demonstrate how to send email using Oauth2 and Gmail's API.
 
+<!--more-->
+
 Before proceeding login to [console.developers.google.com](https://console.developers.google.com)
 
 #### CREATE A NEW PORJECT
