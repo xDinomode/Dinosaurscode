@@ -131,6 +131,7 @@ iframe{
 #footer-pages{
   width:100%;
   text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 #footer-pages ul{
   padding:0;
@@ -149,18 +150,6 @@ iframe{
   color: #4078c0;
 }
 
-#social-footer-icons{
-  text-align:center;
-}
-#social-footer-icons a{
-  color: white;
-}
-#social-footer-icons a:hover{
-  color:#4078c0;
-}
-.twitter{
-  font-size:30px;
-}
 /*end footer css*/
 
 /*post css*/
@@ -337,38 +326,6 @@ iframe{
 }
 
 /*end*/
-
-/*Start share buttons*/
-.twitter-share-button{
-  padding:0;
-  display:block;
-  margin-top:320px;
-}
-.fb-share-button{
-  top:0;
-  padding:0;
-  left: -5px;
-  display: block;
-  margin-top: 5px;
-}
-.fb_iframe_widget{
-  padding:0;
-  position:absolute;
-}
-#facebook{
-  padding:0;
-}
-#fb-root{
-  padding:0;
-}
-#share-wrapper{
-  text-align:right;
-  position: fixed;
-  top: 0;
-  right: 0;
-  padding:0;
-}
-/*End share buttons*/
 
 /*Start 404*/
 .page-not-found{
@@ -1524,8 +1481,28 @@ input.button-tiny, button.button-tiny {
          *   * 2. Change font properties to `inherit` in Safari.
          *    */
 
-    ::-webkit-file-upload-button {
-          -webkit-appearance: button; /* 1 */
-            font: inherit; /* 2 */
-        }
+    ::-webkit-file-uploadhare-buttons{
+  list-style: none;
+  padding: 0;
+}
 
+ul.share-buttons{
+	list-style: none;
+	padding: 0;
+	height: 55px;
+}
+ul.share-buttons li{
+	display: inline;
+}
+
+ul.share-buttons li img {
+	border:none;
+}
+
+#social-footer-icons {
+	text-align:center;
+	font-size: 33px;
+}
+#social-footer-icons a:hover{
+	color:white;
+}
