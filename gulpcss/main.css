@@ -28,6 +28,15 @@ blockquote{
     border-left: 4px solid #ddd;
     font-size: 16px;
 }
+strong {
+    font-family: "source sans pro" Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+ul li {
+    font-size: 1.em;
+    color: #333;
+}
 a{
   color: #4078c0;
   padding:0;
@@ -436,6 +445,7 @@ iframe{
 /*End media query 640px*/
 
 /*BEGIN syntax.css*/
+.highlighter-rouge {border: 5px solid black; margin-bottom: 1.4rem;}
 .highlight  { background: #fffff; padding:0; margin:0; word-spacing: 0%;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
@@ -1503,6 +1513,9 @@ ul.share-buttons li img {
 	text-align:center;
 	font-size: 33px;
 }
+#social-footer-icons a {
+    color: white; 
+}
 #social-footer-icons a:hover{
-	color:white;
+	color:#4078c0;
 }

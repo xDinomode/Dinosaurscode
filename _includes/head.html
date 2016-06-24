@@ -11,8 +11,9 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ 'Dinosaurscode ' }}{{ page.title }}{% endif %}">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Sans+Pro:400,700|Oswald:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/main.css">
-  
+      
   <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
   
   {% if page.url == "/404.html" %}
