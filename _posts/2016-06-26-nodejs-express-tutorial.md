@@ -14,12 +14,12 @@ Here's a simple web server
 ```javascript
 var http = require('http');
 
-httpServer = http.createServer(function(req, res){
+var httpServer = http.createServer(function(req, res){
     res.writeHead(200, {'Content-type': 'text/html'});
     res.end("Okay");
 });
 
-server.listen('9000');
+httpServer.listen('9000');
 ```
 
 **http.CreateServer** returns a new instance of [http.Server](https://nodejs.org/dist/latest-v4.x/docs/api/http.html#http_class_http_server) and is used to create a TCP or local server. 
