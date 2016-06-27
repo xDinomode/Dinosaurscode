@@ -24,7 +24,7 @@ httpServer.listen('9000');
 
 **http.CreateServer** returns a new instance of [http.Server](https://nodejs.org/dist/latest-v4.x/docs/api/http.html#http_class_http_server) and is used to create a TCP or local server. 
 
-**server.listen** starts a local socket server listening for connections on the given path.
+**httpServer.listen** starts a local socket server listening for connections on the given path.
 
 ### EXPRESS 
 
