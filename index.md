@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dinosaurscode
-description: Learn new programming tips and tricks. Web design, Web development, HTML5, CSS3, and much more!
+description: Learn new programming tips and tricks. Web design, Web development, HTML5, CSS3, Node.js and much more! 
 ---
 <br>
 

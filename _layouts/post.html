@@ -5,9 +5,16 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta"><i class="ion-calendar"></i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <p class="post-meta"><i class="ion-calendar"></i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}<span style="margin-left:5px; border-left: 1px solid #ccc;">
+        {% assign words = content | number_of_words %} 
+        {% if words < 360 %}
+            1 min
+        {% else %}
+            {{ words | divided_by: 180 }} min 
+         {% endif %} read
+</span></p>
 
-<ul class="share-buttons">
+       <ul class="share-buttons">
   <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdinosaurscode.xyz&t=" title="Share on Facebook" target="_blank"><img src="/images/Facebook.svg"></a></li>
   <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fdinosaurscode.xyz&text=:%20https%3A%2F%2Fdinosaurscode.xyz&via=DinoSenses" target="_blank" title="Tweet"><img src="/images/Twitter.svg"></a></li>
   <li><a href="https://plus.google.com/share?url=https%3A%2F%2Fdinosaurscode.xyz" target="_blank" title="Share on Google+"><img src="/images/Google+.svg"></a></li>
