@@ -7,6 +7,8 @@ category: NodeJS
 
 The main difference between koa and koa 2 is that koa 2 supports async/await.  
 
+<!--more-->
+
 Koa gets rid of [callback hell](http://callbackhell.com/
 ) by combining generators and promises. 
 
