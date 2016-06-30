@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Node.js Koa 2 Framework Tutorial"
-description: "In this tutorial you'll learn to set up Node.js and Koa 2 and also the basics for beginners."
+description: "Node.js and Koa 2 tutorial for beginners. Setup instructions and the basics of koa.js 2."
 category: NodeJS
 ---
 
