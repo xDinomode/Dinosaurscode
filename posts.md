@@ -3,6 +3,16 @@ layout: page
 title: "Posts"
 ---
 
+# Tutorials 
+{% for post in site.categories["tutorials"] %}
+<div class="posts">
+  <p class = "posts-list"><a href="{{ post.url }}">{{ post.title }}</a><span class="post-meta"> {{ post.date | date_to_string }}</span></p>
+<div class="posts-list-excerpt">{{ post.excerpt }}</div>
+</div>
+{% endfor %}
+
+
+
 # Tips and Tricks
 {% for post in site.categories["tips"] %}
 <div class="posts">

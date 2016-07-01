@@ -209,6 +209,13 @@ iframe{
   font-size: 21px;
   text-align:left;
 }
+.post-content ul li {
+  font-family: "Source-sans-pro", sans-serif;
+  font-size: 1em;
+}
+.post-content ul li a {
+  font-family: "Oswald", sans-serif;
+}
 .posts{
   width:74%;
   margin: 23px auto;
@@ -498,6 +505,7 @@ iframe{
 .highlight  { background: #fffff; padding:0; margin:0; word-spacing: 0%;}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .err { color: black; background-color:none } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
 .highlight .o { font-weight: bold } /* Operator */
 .highlight .cm { color: #999988; font-style: italic } /* Comment.Multiline */
@@ -548,6 +556,7 @@ iframe{
 .highlight .si { color: #d14 } /* Literal.String.Interpol */
 .highlight .sx { color: #d14 } /* Literal.String.Other */
 .highlight .sr { color: #009926 } /* Literal.String.Regex */
+.highlight .sr { color: black } /* Literal.String.Regex Fix React tutorial*/
 .highlight .s1 { color: #d14 } /* Literal.String.Single */
 .highlight .ss { color: #990073 } /* Literal.String.Symbol */
 .highlight .bp { color: #999999 } /* Name.Builtin.Pseudo */
