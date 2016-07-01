@@ -1,6 +1,6 @@
 ---
 layout: post
-category: Tips
+category: tips
 title: "5 Excellent Blogging Tips"
 description: "Blogging can be hard but using these excellent tips can help improve your content dratsically."
 ---
