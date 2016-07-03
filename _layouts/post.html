@@ -14,12 +14,14 @@ layout: default
          {% endif %} read
 </span></p>
 
-       <ul class="share-buttons">
-  <li><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdinosaurscode.xyz&t=" title="Share on Facebook" target="_blank"><img src="/images/Facebook.svg"></a></li>
-  <li><a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fdinosaurscode.xyz&text=:%20https%3A%2F%2Fdinosaurscode.xyz&via=DinoSenses" target="_blank" title="Tweet"><img src="/images/Twitter.svg"></a></li>
-  <li><a href="https://plus.google.com/share?url=https%3A%2F%2Fdinosaurscode.xyz" target="_blank" title="Share on Google+"><img src="/images/Google+.svg"></a></li>
-  <li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fdinosaurscode.xyz&title=" target="_blank" title="Submit to Reddit"><img src="/images/Reddit.svg"></a></li>
-  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdinosaurscode.xyz&title=&summary=&source=https%3A%2F%2Fdinosaurscode.xyz" target="_blank" title="Share on LinkedIn"><img src="/images/LinkedIn.svg"></a></li>
+
+
+<ul class="share-buttons">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fdinosaurscode.xyz&t=" title="Share on Facebook" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;"><img src="/images/Facebook.svg"></a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fdinosaurscode.xyz&text=:%20http%3A%2F%2Fdinosaurscode.xyz&via=DinoSenses" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;"><img src="/images/Twitter.svg"></a></li>
+  <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fdinosaurscode.xyz" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;"><img src="/images/Google+.svg"></a></li>
+  <li><a href="http://www.reddit.com/submit?url=http%3A%2F%2Fdinosaurscode.xyz&title=" target="_blank" title="Submit to Reddit" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img src="/images/Reddit.svg"></a></li>
+  <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fdinosaurscode.xyz&title=&summary=&source=http%3A%2F%2Fdinosaurscode.xyz" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;"><img src="/images/LinkedIn.svg"></a></li>
 </ul>
 {% include ads.html %}
 </header>
