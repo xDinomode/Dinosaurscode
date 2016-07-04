@@ -79,7 +79,7 @@ $myName(document.).ready(function(){
 Events bind to objects such as elements and once triggered fire an event handler (callback).
 
 ```javascript
-$(#button).on("click", function(event){
+$("#button").on("click", function(event){
     event.preventDefault();
     alert("Button clicked");
 });
