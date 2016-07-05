@@ -74,10 +74,3 @@ title: "Posts"
 </div>
 {% endfor %}
 
-# My Own Personal Thoughts 
-{% for post in site.categories["thoughts"] %}
-<div class="posts">
-  <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
-<div class="posts-list-excerpt">{{ post.excerpt }}</div>
-</div>
-{% endfor %}
