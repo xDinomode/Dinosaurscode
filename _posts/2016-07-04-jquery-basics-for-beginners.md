@@ -116,7 +116,7 @@ Many more cool effects can be found [here](http://api.jquery.com/category/effect
 
 ### Manipulate the DOM
 
-jQuery makes it easy to add attributes to elements, change the inner HTML, and getting values from elemenets.
+jQuery makes it easy to add attributes to elements, change the inner HTML, and getting values from elements.
 
 Adding a class 
 
