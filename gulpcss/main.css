@@ -1,5 +1,11 @@
+*{
   box-sizing: border-box;
   margin:0;
+}
+main, section, article,
+header, footer, aside, 
+nav, figure {
+  display: block;
 }
 html{
     font-size: 100%;
@@ -71,70 +77,6 @@ iframe{
 }
 
 /*header css*/
-#header{
-  width:100%;
-  height: 88px;
-  font-weight: bold;
-  font-family:"Oswald", Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
-  /*float: left;*/
-}
-#header .nav{
-  text-align:center;
-  background-color:#1c1c1c;
-  background-color:#f44747;
-  background-color:#3e4651;
-  width: 100%;
-  height: 100%;
-  vertical-align: top;
-  padding: 0;
-  margin: 0;
-  line-height: 88px;
-}
-
-#header .nav .logo {
-    width: 20%;
-    height: 100%;
-    padding:0;
-    margin: 0;
-    display: inline-block;
-}
-
-#header .nav .logo p {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    line-height: 92px;
-    color:white;
-}
-#header .nav ul{
-  list-style-type: none;
-  display: inline-block;
-  width: 70%;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-}
-#header .nav ul li{
-  display: inline-block;
-  text-align: center;
-  line-height: 40px;
-  padding: 10px;
-}
-#header .nav ul li a{
-  display:inline-block;
-  height: 42px;
-  color:white;
-  text-decoration: none;
-  /*font-size: 18px;*/
-  font-size: 1.1875em; 
-}
-#header .nav ul li a:hover{
-
-}
 #indexwelcome{
     /*font-size: 1.5em;*/
     background-color: #d6d6d6;
@@ -154,15 +96,66 @@ iframe{
 
 /*end of header css*/
 
+/*flex-header*/
+.flex-header-container{
+  display: flex;
+  flex-wrap: wrap;
+  background: #333;
+}
+.flex-header-item{
+  min-width: 80px;
+  flex-grow: 1;
+}
+.flex-header-item .logo{
+  text-align: center;
+  color: #4DBCE9;
+}
+.one{
+  flex-shrink: 5;
+}
+.two{
+  flex-shrink: 1;
+}
+.three{
+  flex-shrink: 1;
+}
+.four{
+  flex-shrink: 1;
+}
+.five{
+  flex-shrink: 1;
+}
+.flex-header-item h1{
+  font-size: 1.2em;
+}
+.flex-header-item a{
+  color: white;
+  text-decoration: none;
+}
+.flex-header-item a:hover{
+  color: #4DBCE9;
+}
+/*end-flex-header*/
+
 /*footer css*/
 #footer{
   width:100%;
-  padding:20px;
+  padding:40px;
   background-color: #151515;
   background-color: #2b2636;
   clear: both;
+  border-top: 8px solid #333;
 }
-
+#social-footer-icons {
+	text-align:center;
+	font-size: 33px;
+}
+#social-footer-icons a {
+    color: white; 
+}
+#social-footer-icons a:hover{
+	color:#4DBCE9;
+}
 #footer-pages{
   width:100%;
   text-align: center;
@@ -177,12 +170,11 @@ iframe{
 }
 #footer-pages a{
   text-decoration:none;
-  font-size: 0.75em;
+  font-size: 0.89em;
   color:white;
 }
 #footer-pages a:hover{
-  /*color:white;*/
-  color: #4078c0;
+  color: #4DBCE9;
 }
 
 /*end footer css*/
@@ -266,8 +258,8 @@ iframe{
 }
 .post-latest{
     list-style-type: none;
-    background-color:#212121;
-    text-align:left;
+    background: #2B2636;
+    text-align:center;
 }
 .post-latest li{
   list-style-type: none;
@@ -276,6 +268,7 @@ iframe{
   font-family: "Oswald";
 }
 .post-latest li a{
+  color: #4DBCE9;
 }
 .post-latest li a:hover{
 	color:white;
@@ -1566,17 +1559,6 @@ ul.share-buttons li{
 ul.share-buttons li img {
 	border:none;
     width: 32px;
-}
-
-#social-footer-icons {
-	text-align:center;
-	font-size: 33px;
-}
-#social-footer-icons a {
-    color: white; 
-}
-#social-footer-icons a:hover{
-	color:#4078c0;
 }
 
 #html5-wrapper {
