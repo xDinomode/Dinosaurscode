@@ -111,7 +111,7 @@ iframe{
   color: #4DBCE9;
 }
 .one{
-  flex-shrink: 5;
+  flex-shrink: 100%;
 }
 .two{
   flex-shrink: 1;
@@ -456,6 +456,11 @@ iframe{
 @media(max-width: 550px) {
     body {
     }
+    .one{
+        width: 100%;
+        font-size: .9em;
+        background: white;
+    }
     #header {
         height: auto;
     } 
@@ -481,6 +486,10 @@ iframe{
   body{
   }
   #header{
+  }
+  .two, .three, .four, .five {
+      min-width: 45px;
+      font-size: .9em;
   }
   #header .nav{
   	padding:0;
