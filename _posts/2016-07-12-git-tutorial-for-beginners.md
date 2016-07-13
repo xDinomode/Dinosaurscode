@@ -9,61 +9,63 @@ Git is a [distributed version control](https://en.wikipedia.org/wiki/Distributed
 
 <!--more-->
 
-Anyone can clone the repository (project) and get the entire repo's history. In other words, everyone has a complete backup of the project. 
+Anyone can clone a repository (project) and get the entire repo's history. In other words, everyone has a complete backup of the project. 
 
 > Install [Git](https://git-scm.com/) before proceeding
 
 ### Demystifying Github 
 
-We'll create our own central repository where anyone can push/pull/clone from.
+We'll mimic an entire Git workflow using only three folders.   
 
-Create 3 folders named **a**, **b**, **c**:
+**github** will be the folder to push/pull/clone from just like the real Github  
+
+**dev1** represents a developer 
+
+**dev2** represents another developer
+
+Create the 3 folders:
 
 ```bash
-$ mkdir a b c
+$ mkdir github dev1 dev2
 ```
 
 ```
-|-- a
-|-- b
-|-- c
+|-- github 
+|-- dev1
+|-- dev2
 ```
-
-**a** is where the developers push their work to (represents [Github](https://github.com/))
-
-**b** and **c** represent two different developers working on the project
 
 <br>
 
-**cd** into **a** and initialize it as a bare repo (sharing repo like Github):
+**cd** into **github** and initialize it as a [bare repo](https://git-scm.com/book/en/v2/Git-on-the-Server-Getting-Git-on-a-Server) (sharing repo like Github):
 
 ```bash
-$ cd a 
+$ cd github 
 $ git init --bare
 ```
 
-Now the developers can push their code here.
+A bare repository sits on a server and allows developers to push/pull to it. This is the equivalent to the real Github.
 
 <br>
 
-Clone the repo into **b** and **c**:
+**dev1** and **dev2** both want to work on the same project so they both clone the bare repository: 
 
 ```bash
-$ cd b
-$ git clone ../a .
+$ cd dev1 
+$ git clone ../github .
 ```
 
 ```bash
-$ cd c 
-$ git clone ../a .
+$ cd dev2 
+$ git clone ../github .
 ```
 
 <br>
 
-Inside of **b** create a new file and push it to the central server (a):
+Inside of **dev1** create a new file and push it to the central server (github):
 
 ```bash
-# Creates a new file named hello.txt
+# dev1 creates a new file named hello.txt
 $ echo "hello world" >> hello.txt
 ```
 
@@ -72,36 +74,36 @@ Before pushing the new file, Git requires you to take a snapshot of your changes
 Git also needs to know what changes to commit by adding the file to the "staging" area:
 
 ```bash
-# Adds the file to the staging area
+# Adds the new file to the staging area
 $ git add hello.txt
 
 # Commits the changes in the staging area
-# With a message for other developers to know what changed
+# with a message for other developers to know what changed
 $ git commit -m "Added a new file"
 ```
 
-Now we can push our changes to the central server (a): 
+Now we can push our changes to the central server (github): 
 
 ```bash
-# origin is an alias for the full URL of /a 
-# master the current branch you're working on
+# origin is an alias for the URL of /github 
+# master is the current branch you're working on
 $ git push origin master
 ```
 
-Branches in Git allow developers to modify the code without overriding the original project.  
+[Branches](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches) in Git allow developers to modify the existing code without making changes to the original. So in case you modify the project and later on decide you don't want those changes you can simply delete the branch.  
 
-Git by default creates a master branch, but you can make more and merge (combine) the changes with the master branch later on.
+Git by default creates a master branch and it's wise not to work in it, but instead create a new branch and merge it with the master later on.
 
 <br>
 
-The **c** developer needs to pull the latest changes made by **b**:
+**dev2** needs to pull the latest changes made by **dev1**:
 
 ```bash
 # fetches the new changes and merges them with your own code
 $ git pull 
 ```
 
-Now c has the file added by b "hello.txt"
+Now dev2 has the file added by dev1 "hello.txt"
 
 <br>
 
