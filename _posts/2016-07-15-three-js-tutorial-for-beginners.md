@@ -9,7 +9,7 @@ category: tutorials
 
 <!--more-->
 
-<script src="http://threejs.org/build/three.min.js"></script>
+<script src="/js/three.min.js"></script>
 
 ### Scene, Camera, Renderer
 
