@@ -4,18 +4,18 @@ title: About
 ---
 <br>
 
-### What's this website about?
+### What's this website all about?
 
-I'm currently building this website/blog in hopes of helping others. Specifically in programming or web development. 
+Dinosaurscode is a website for programmers, coders, web developers, and web designers to learn new skills.
 
-I'm no expert but I know a thing or two.
+There are lots of new technologies popping up daily and this is the place to learn them all. 
 
-Read my [posts](/posts)! 
+### How is this website built?
 
-Maybe you'll learn something new :)
+It's built using the popular static site generator [Jekyll](https://jekyllrb.com/) and proudly hosted on [Github](https://github.com/xDinomode/DinosBlog). All blog posts are in the folder **_posts**.
 
+### Want to guest blog?
 
-<br>
+Go to contact in the navbar and submit an idea with an email to respond to.
 
-![Bunny love](/images/bunnyfunny.jpg)
 

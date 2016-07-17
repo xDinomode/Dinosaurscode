@@ -1,7 +1,7 @@
 <div class="flex-header-container">
     <div class="flex-header-item one"><h1 class="logo">Dinosaurscode</h1></div>
-    <div class="flex-header-item two"><h1><a href="/">Home</a></h1></div>
-    <div class="flex-header-item three"><h1><a href="/about">About</a></h1></div>
-    <div class="flex-header-item four"><h1><a href="/posts">Posts</a></h1></div>
-    <div class="flex-header-item five"><h1><a href="/contact">Contact</a></h1></div>
+    <div class="flex-header-item two"><h1><a href="/" {% if page.url == "/" %}class="selected-item"{% endif %}>Home</a></h1></div>
+    <div class="flex-header-item three"><h1><a href="/about" {% if page.url == "/about/"%}class="selected-item"{% endif %}>About</a></h1></div>
+    <div class="flex-header-item four"><h1><a href="/posts" {% if page.url == "/posts/"%}class="selected-item"{% endif %}>Posts</a></h1></div>
+    <div class="flex-header-item five"><h1><a href="/contact" {% if page.url == "/contact/"%}class="selected-item"{% endif %}>Contact</a></h1></div>
 </div>
