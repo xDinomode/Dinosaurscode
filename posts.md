@@ -7,7 +7,7 @@ title: "Posts"
 {% for post in site.categories["tutorials"] %}
 <div class="posts">
   <p class = "posts-list"><a href="{{ post.url }}">{{ post.title }}</a><span class="post-meta"> {{ post.date | date_to_string }}</span></p>
-<div class="posts-list-excerpt">{{ post.excerpt }}</div>
+<div class="posts-list-excerpt">{{ post.excerpt | strip_html }}</div>
 </div>
 {% endfor %}
 
@@ -17,7 +17,7 @@ title: "Posts"
 {% for post in site.categories["tips"] %}
 <div class="posts">
   <p class = "posts-list"><a href="{{ post.url }}">{{ post.title }}</a><span class="post-meta"> {{ post.date | date_to_string }}</span></p>
-<div class="posts-list-excerpt">{{ post.excerpt }}</div>
+<div class="posts-list-excerpt">{{ post.excerpt | strip_html }}</div>
 </div>
 {% endfor %}
 
@@ -26,7 +26,7 @@ title: "Posts"
 {% for post in site.categories["NodeJS"] %}
 <div class="posts">
   <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
-<div class="posts-list-excerpt">{{ post.excerpt }}</div>
+<div class="posts-list-excerpt">{{ post.excerpt | strip_html }}</div>
 </div>
 {% endfor %}
 
@@ -35,7 +35,7 @@ title: "Posts"
 {% for post in site.categories["How-to"] %}
 <div class="posts">
   <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
-<div class="posts-list-excerpt">{{ post.excerpt }}</div>
+<div class="posts-list-excerpt">{{ post.excerpt | strip_html }}</div>
 </div>
 {% endfor %}
 
@@ -44,7 +44,7 @@ title: "Posts"
 {% for post in site.categories["Hacking"] %}
 <div class="posts">
   <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
-<div class="posts-list-excerpt">{{ post.excerpt }}</div>
+<div class="posts-list-excerpt">{{ post.excerpt | strip_html }}</div>
 </div>
 {% endfor %}
 
@@ -53,7 +53,7 @@ title: "Posts"
 {% for post in site.categories["python"] %}
 <div class="posts">
   <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
-<div class="posts-list-excerpt">{{ post.excerpt }}</div>
+<div class="posts-list-excerpt">{{ post.excerpt | strip_html }}</div>
 </div>
 {% endfor %}
 
@@ -62,7 +62,7 @@ title: "Posts"
 {% for post in site.categories["go"] %}
 <div class="posts">
   <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
-<div class="posts-list-excerpt">{{ post.excerpt }}</div>
+<div class="posts-list-excerpt">{{ post.excerpt | strip_html }}</div>
 </div>
 {% endfor %}
 
@@ -70,7 +70,7 @@ title: "Posts"
 {% for post in site.categories["linux"] %}
 <div class="posts">
   <p class = "post-list"><a href="{{ post.url }}">{{ post.title }}</a><span class = "post-meta"> {{ post.date | date_to_string }}</span></p>
-<div class="posts-list-excerpt">{{ post.excerpt }}</div>
+<div class="posts-list-excerpt">{{ post.excerpt | strip_html }}</div>
 </div>
 {% endfor %}
 

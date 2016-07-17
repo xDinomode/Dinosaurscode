@@ -6,9 +6,9 @@ description: Learn new programming tips and tricks. Web design, Web development,
 <br>
 
 <div id = "indexwelcome">      
-<h3>Welcome to Dinosaurscode</h3>
-<p style="text-align:center;">A blog written for coders</p>
-{% include homebutton.html %}
+<p class="home-introduction" style="text-align:center;">A blog written for coders</p>
+<div class="home-button" class="home-button"><a href="/posts">Start Here</a></div>
+<br>
 </div>
 
 
