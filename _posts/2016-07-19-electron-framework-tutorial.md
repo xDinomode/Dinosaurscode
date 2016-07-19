@@ -83,6 +83,14 @@ We created a [BrowserWindow](http://electron.atom.io/docs/api/browser-window/) t
 
 Then we used the browser window's [webContents](http://electron.atom.io/docs/api/web-contents/) to load a URL in the web page. It's responsible for controlling the web page. 
 
+Run it with the following command:
+
+```bash
+$ ./node_modules/.bin/electron .
+```
+
+![Electron loadURL](/images/electronreddit.png)
+
 ### The Render Process
 
 A render process is automatically created when we create a new BrowserWindow, but in order to use it we must code inside the web page.
@@ -134,9 +142,8 @@ Let's build an application that writes a file to our filesystem:
 
         button.addEventListener("click", (e) => {
             fs.writeFile(filename.value, filetext.value, (err) => {
-                if (err != nil) {
-                    console.log(err);
-                }
+                if (err) throw err;
+                console.log('Success');
             })
         });
     </script>
