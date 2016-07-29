@@ -1,4 +1,5 @@
-This is a blog written in Jekyll
------
+# Dinosaurscode
 
-[Demo](http://dinosaurscode.xyz)
+#### [A blog written for coders](https://dinosaurscode.xyz)
+
+created using [Jekyll](https://jekyllrb.com/) and hosted on Github
