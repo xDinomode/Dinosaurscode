@@ -37,13 +37,13 @@ For this demonstration I'll use three divs with a class of **box**. Each with wi
   width: 100px;
   height: 100px;
 }
-.one{
+.onee{
   background: red;    
 }
-.two{
+.twoe{
   background: green;    
 }
-.three{
+.threee{
   background: orange;    
 }
 /*part 2*/
@@ -184,9 +184,9 @@ For this demonstration I'll use three divs with a class of **box**. Each with wi
 </style>
 
 <div class="container">
-  <div class="box one"></div>
-  <div class="box two"></div>
-  <div class="box three"></div>
+  <div class="box onee"></div>
+  <div class="box twoe"></div>
+  <div class="box threee"></div>
 </div>
 
 The parent element (container) of the boxes must be set to display flex first
