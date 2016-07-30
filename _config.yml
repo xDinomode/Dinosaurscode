@@ -39,5 +39,5 @@ exclude:
   - node_modules
   - gulpfile.js
 
-environment: production 
+environment: dev 
 #production
