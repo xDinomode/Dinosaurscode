@@ -7,6 +7,8 @@ category: tips
 
 There are tons of great blogs related to web development out there, but this article will list 5 great ones worth checking out.
 
+<!--more-->
+
 ### [hacks.mozilla.org](https://hacks.mozilla.org)
 
 ![hacks.mozilla.org website](/images/hackz-mozilla-org.png)
