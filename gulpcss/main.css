@@ -127,8 +127,12 @@ iframe{
   flex-grow: 1;
 }
 .flex-header-item .logo{
+  display: block;
+  margin: 0 auto;
   text-align: center;
   color: #4DBCE9;
+  height: 55px;
+  margin-top: 5px;
 }
 .one{
   flex-shrink: 100%;
@@ -157,7 +161,7 @@ iframe{
 }
 .selected-item{
   padding: 10px;
-  border: 3px solid #4DBCE9;
+  border-bottom: 3px solid #4DBCE9;
 }
 
 /*end-flex-header*/
