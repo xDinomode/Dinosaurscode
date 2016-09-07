@@ -40,7 +40,7 @@ func logout(res http.ResponseWriter, req *http.Request) {
 func main(){
     http.HandleFunc("/settoken", setToken)
     http.HandleFunc("/profile", validate(protectedProfile))    
-    http.HandleFunc("/logout", validate(protectedLogout))
+    http.HandleFunc("/logout", validate(logout))
     http.ListenAndServe(":9000", nil)
 }
 ```
