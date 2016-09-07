@@ -23,7 +23,7 @@ func setToken(res http.ResponseWriter, req *http.Request) {
 }
 
 // middleware to protect private pages
-func validate(page http.Handler) http.Handler {
+func validate(page http.HandlerFunc) http.HandlerFunc {
     
 }
 
