@@ -135,11 +135,7 @@ func newPool() *redis.Pool {
 		MaxIdle:   80,
 		MaxActive: 12000,
 		Dial: func() (redis.Conn, error) {
-			conn, err := redis.Dial("tcp", ":6379")
-			if err != nil {
-				panic(err.Error)
-			}
-			return conn, err
+			return redis.Dial("tcp", ":6379")
 		},
 	}
 }
@@ -147,10 +143,10 @@ func newPool() *redis.Pool {
 func home(res http.ResponseWriter, req *http.Request) {
 	// Grab a connection and make sure to close it with defer 
 	conn := pool.Get()
-	defer pool.Close()
+	defer conn.Close()
 
-	pong, _ := redis.String(conn.Do("PING"))
-	res.Write([]byte(pong))
+	pong, _ := redis.Bytes(conn.Do("PING"))
+	res.Write(pong)
 }
 
 func main() {
