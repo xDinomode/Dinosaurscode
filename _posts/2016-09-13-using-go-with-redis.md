@@ -7,6 +7,8 @@ category: go
 
 In this demonstration you'll learn how to use Go with Redis. First and foremost **go get** [garyburd/redigo](https://github.com/garyburd/redigo) for connecting with the Redis-server.
 
+<!--more-->
+
 ```bash
 $ go get github.com/garyburd/redigo
 ```
