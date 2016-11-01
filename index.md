@@ -7,6 +7,7 @@ description: Learn new programming tips and tricks. Web design, Web development,
 
 <div id = "indexwelcome">      
 <p class="home-introduction" style="text-align:center;">A blog written for coders</p>
+<p id = "indexwelcomelist">Node.js &#10003; HTML5 &#10003; CSS3 &#10003; and much more...</p>
 <div class="home-button" class="home-button"><a href="/posts">Start Here</a></div>
 <br>
 </div>
