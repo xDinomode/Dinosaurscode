@@ -13,6 +13,8 @@ description: Learn new programming tips and tricks. Web design, Web development,
 </div>
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0yj51SovoTE" frameborder="0" class="home-video" allowfullscreen></iframe>
+
 ### RECENT POSTS
 
 <ul class = "post-latest">

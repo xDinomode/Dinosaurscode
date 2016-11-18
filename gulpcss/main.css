@@ -76,6 +76,11 @@ iframe{
 #wrapper{
 }
 
+.home-video {
+  max-width: 100%;
+  padding-top: 20px;
+}
+
 /*header css*/
 #indexwelcome{
     /*font-size: 1.5em;*/
@@ -356,7 +361,8 @@ iframe{
   margin:0 auto;
 }
 #recent-posts{
-  padding-top: 85px;
+  /*padding-top: 85px;*/
+  padding-top: 20px;
 }
 /*end page content css*/
 
