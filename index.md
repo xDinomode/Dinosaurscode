@@ -24,3 +24,5 @@ description: Learn new programming tips and tricks. Web design, Web development,
     </li>
   {% endfor %}
 </ul>
+
+{% include newsletter.html %}
