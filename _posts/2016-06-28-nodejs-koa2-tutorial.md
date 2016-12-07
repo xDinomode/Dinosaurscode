@@ -47,7 +47,7 @@ For those that are unfamiliar with the new es2015 syntax I recommend reading [th
 
 But a quick rundown of the syntax:
 
-**=>** Function shorhand [(learn more about =>)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 
+**=>** Function shorthand [(learn more about =>)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) 
 
 ```javascript
 (parameter) => {
