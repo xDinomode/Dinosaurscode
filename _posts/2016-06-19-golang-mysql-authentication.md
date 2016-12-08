@@ -156,7 +156,7 @@ Create **login.html**
 
 <body>
     <h1>Login Page</h1>
-    <form>
+    <form method="POST" action="/login">
         <input type="text" name="username" placeholder="username">
         <input type="password" name="password" placeholder="password">
         <input type="submit" value="Login">
